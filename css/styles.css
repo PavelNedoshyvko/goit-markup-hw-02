@@ -85,22 +85,22 @@ body {
 
 /* Hero */
 
-.section.hero{
-	background-color: var(--dark-navy-blue);
+.section.hero {
+  background-color: var(--dark-navy-blue);
 }
 
 .section.hero .title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-	letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--white-background);
 }
 
 .hero .btn {
   font-weight: 500;
-	line-height: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background);
   background-color: var(--primary-brand-iris);
@@ -117,6 +117,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark-navy-blue);
 }
 
@@ -126,13 +127,26 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  /* text-align: center; */
-  /* text-transform: capitalize; */
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-navy-blue);
 }
 
 /* Our team */
 
+.section.team {
+  background-color: var(--light-cloud);
+}
+
+.team .item {
+  background-color: var(--white-background);
+}
+
 /* Footer */
+
+.footer {
+  background-color: var(--dark-navy-blue);
+}
 
 .footer .logo-studio,
 .footer .text {
@@ -143,7 +157,7 @@ body {
 
 /* Filter */
 
-.filter .btn {
+.gallery .btn {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -153,8 +167,8 @@ body {
   border-radius: 4px;
 }
 
-.filter .btn:hover,
-.filter .btn:focus {
+.gallery .btn:hover,
+.gallery .btn:focus {
   color: var(--white-background);
   background-color: var(--pressed-state-ocean);
   border-color: var(--pressed-state-ocean);
