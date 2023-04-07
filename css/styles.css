@@ -121,6 +121,10 @@ body {
   color: var(--dark-navy-blue);
 }
 
+.section .text {
+  color: var(--text-slate);
+}
+
 /* What are we doing */
 
 .section .title {
