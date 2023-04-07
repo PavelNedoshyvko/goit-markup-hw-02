@@ -46,29 +46,32 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--dark-navy-blue);
+  color: var(--primary-brand-iris);
   text-transform: uppercase;
 }
 
-.logo-web {
-  color: var(--primary-brand-iris);
+.logo-studio {
+  color: var(--dark-navy-blue);
 }
 
 /* Site-nav */
 
-.site-nav .nav {
+.site-nav .page {
   font-weight: 500;
   color: var(--dark-navy-blue);
 }
 
-.address {
+/* Address */
+
+.address .mail,
+.address .tel {
   font-style: normal;
   color: var(--text-slate);
 }
 
 /* Hero */
 
-.hero-title {
+.hero .title {
   /* font-weight: 700; */
   font-size: 56px;
   line-height: 1.07;
@@ -76,12 +79,13 @@ body {
   /* color: var(--white-background); */
 }
 
-.hero-btn {
+.hero .btn {
   color: var(--white-background);
   background-color: var(--primary-brand-iris);
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.hero .btn:hover,
+.hero .btn:focus {
   background-color: var(--pressed-state-ocean);
-	cursor: pointer;
+  cursor: pointer;
 }
+
